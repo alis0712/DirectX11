@@ -1,0 +1,52 @@
+﻿Build started 8/28/2022 3:42:02 PM.
+     1>Project "C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\BasicDx11App3D\BasicDx11App3D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BasicDx11App3D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BasicDx11App3D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BasicDx11App3D.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BasicDx11App3D.cpp GxDemoApp.cpp GxDx11Base.cpp GxObjParser.cpp XACT3Util.cpp
+         XACT3Util.cpp
+         GxObjParser.cpp
+         GxDx11Base.cpp
+         GxDemoApp.cpp
+         BasicDx11App3D.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\BasicDx11App3D.res" BasicDx11App3D.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BasicDx11App3D.exe.embed.manifest.res" Debug\BasicDx11App3D_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11.lib d3dcompiler.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BasicDx11App3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.lib" /MACHINE:X86 Debug\BasicDx11App3D.res
+         Debug\BasicDx11App3D.exe.embed.manifest.res
+         Debug\BasicDx11App3D.obj
+         Debug\GxDemoApp.obj
+         Debug\GxDx11Base.obj
+         Debug\GxObjParser.obj
+         Debug\stdafx.obj
+         Debug\XACT3Util.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+     1>BasicDx11App3D.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BasicDx11App3D.exe.embed.manifest" /manifest Debug\BasicDx11App3D.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\BasicDx11App3D.exe.embed.manifest.res" Debug\BasicDx11App3D_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11.lib d3dcompiler.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BasicDx11App3D.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.lib" /MACHINE:X86 Debug\BasicDx11App3D.res
+         Debug\BasicDx11App3D.exe.embed.manifest.res
+         Debug\BasicDx11App3D.obj
+         Debug\GxDemoApp.obj
+         Debug\GxDx11Base.obj
+         Debug\GxObjParser.obj
+         Debug\stdafx.obj
+         Debug\XACT3Util.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+     1>BasicDx11App3D.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+         BasicDx11App3D.vcxproj -> C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\Debug\BasicDx11App3D.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BasicDx11App3D.unsuccessfulbuild".
+         Touching "Debug\BasicDx11App3D.lastbuildstate".
+     1>Done Building Project "C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 10\BasicDx11App3D\BasicDx11App3D\BasicDx11App3D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32

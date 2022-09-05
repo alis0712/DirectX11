@@ -1,0 +1,36 @@
+﻿Build started 8/18/2022 2:06:26 PM.
+     1>Project "C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Sprites\Sprites.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Sprites.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:queue DemoSprites.cpp Dx11Base.cpp main.cpp Sprite.cpp
+         Sprite.cpp
+         main.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Dx11Base.cpp
+         DemoSprites.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Sprites.exe.embed.manifest.res" Debug\Sprites_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Debug\Sprites.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11.lib d3dcompiler.lib dxerr.lib dinput8.lib dxguid.lib xinput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Sprites.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Debug\Sprites.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Debug\Sprites.lib" /MACHINE:X86 Debug\Sprites.exe.embed.manifest.res
+         Debug\DemoSprites.obj
+         Debug\Dx11Base.obj
+         Debug\main.obj
+         Debug\Sprite.obj
+         LINK : C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Debug\Sprites.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Sprites.exe.embed.manifest" /manifest Debug\Sprites.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Sprites.vcxproj -> C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Debug\Sprites.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Sprites.unsuccessfulbuild".
+         Touching "Debug\Sprites.lastbuildstate".
+     1>Done Building Project "C:\Users\syeda\OneDrive - Bowie State\Misc\DirectX\Week 5\Sprites\Sprites\Sprites.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
